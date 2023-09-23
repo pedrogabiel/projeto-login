@@ -1,0 +1,55 @@
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to top, var(--cor1), var(--cor2), var(--cor3));
+    }
+
+    #login{
+        width: 90vw;
+    }
+    
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: right;
+        width: 65%;
+    }
+}
+
+/* telas grandes */
+
+@media screen and (min-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+    }
+
+    #login{
+        width: 950px;
+    }
+
+    #imagem{
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: left;
+        width: 60%;
+    }
+
+    #formulario > h1{
+        font-size: 2em;
+    }
+
+    #formulario > p{
+        font-size: 1.2em;
+    }
+}
